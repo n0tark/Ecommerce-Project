@@ -1,0 +1,28 @@
+.item {
+    width: 20em;
+    margin: 0 .5em;
+}
+.item p {
+    margin: 0.4em 0px;
+}
+.item-prices {
+    display: flex;
+    gap: 1.25em;
+}
+.item-price-new {
+    font-size: 1.125em;
+    font-weight: 600;
+}
+.popular-item .item-price-new {
+    color: #fff;
+}
+.item-price-old {
+    font-size: 1.125em;
+    font-weight: 500;
+    color: #8c8c8c;
+    text-decoration: line-through;
+}
+.item:hover {
+    transform: scale(1.05);
+    transition: .5s linear;
+}

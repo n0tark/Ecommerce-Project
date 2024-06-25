@@ -1,0 +1,23 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625em;
+    height: 75vh;
+    background: #FF007F;
+}
+.popular h1 {
+    font-size: 3.125em;
+    font-weight: 600;
+    color: #fff;
+    margin-top: .5em;
+}
+.popular-item {
+    display: flex;
+    gap: 2em;
+    color: #fff;
+    margin-top: 3em;
+}
+.popular hr {
+    background: #fff;
+}
